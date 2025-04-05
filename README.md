@@ -43,7 +43,7 @@ Traditional applications that use Python to automate table operations may strugg
 ## Features
 ✅ Smart table filling\
 ✅ Customizable knowledge base content\
-✅ Support for local Ollama and cloud APIs\
+✅ Support for local Ollama and cloud APIs
 
 ## Installation
 ```bash
