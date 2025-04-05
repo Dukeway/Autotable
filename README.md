@@ -10,6 +10,7 @@
 
 ## 快速开始
 ```bash
+git clone https://github.com/Dukeway/Autotable.git
 pip install -r requirements.txt
 python main.py
 ```
@@ -46,6 +47,7 @@ Traditional applications that use Python to automate table operations may strugg
 
 ## Installation
 ```bash
+git clone https://github.com/Dukeway/Autotable.git
 pip install -r requirements.txt
 python main.py
 ```
