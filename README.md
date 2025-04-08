@@ -3,6 +3,8 @@
 ## 概述
 传统的通过python来实现表格自动化操作的应用可能很难处理复杂的docx格式的表格，而大语言模型擅长处理非结构化的字段，从而增加了灵活性。本项目通过用户自定义的“知识库”文件，实现基于大语言模型对docx文件表格的自动填写。原理是使用大语言模型来分析表格结构，生成字段到单元格位置的映射。然后根据这个映射填充数据。支持本地Ollama调用和符合OpenAI协议的API。
 
+我最近开发了另一款不依赖大语言模型的离线自动化填表应用，可以尝试https://github.com/Dukeway/Autowordtable
+
 ## 主要功能
 ✅ 智能填写表格\
 ✅ 自定义知识库内容\
@@ -40,6 +42,7 @@ python main.py
 ## Overview
 Traditional applications that use Python to automate table operations may struggle to handle complex table structures in .docx format, whereas large language models excel at processing unstructured fields, offering greater flexibility. This project enables automatic table filling in .docx files based on a user-defined "knowledge base" file, leveraging large language models. The principle involves using a large language model to analyze the table structure, generate a mapping of fields to cell positions, and then populate the data according to this mapping. It supports local Ollama calls and APIs compatible with the OpenAI protocol.
 
+I recently developed another offline automated form filling application that does not rely on a large language model. You can try it https://github.com/Dukeway/Autowordtable
 ## Features
 ✅ Smart table filling\
 ✅ Customizable knowledge base content\
