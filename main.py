@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
     auto_table = AutoTable(
         knowledge_base_path="知识库.xlsx",
-        word_template_path="表格模板.docx",
+        word_template_path="表格模版.docx",
         llm_client=llm_client
     )
 
